@@ -9,13 +9,17 @@ CREATE TABLE IF NOT EXISTS riders (
 );
 
 
+
+
 CREATE TABLE IF NOT EXISTS drivers (
     driver_id INTEGER PRIMARY KEY,
     name VARCHAR(100),
     phone VARCHAR(20),
     license_number VARCHAR(50),
-    rating REAL
+    rating REAL,
+    email VARCHAR(100)
 );
+
 
 
 CREATE TABLE IF NOT EXISTS vehicles (
